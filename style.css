@@ -1,0 +1,479 @@
+/********* welcome part start ********/
+* {
+	font-family: tahoma;
+}
+.walcome {
+	background-color: #87509c;
+	background-image: url(images/hbg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.blr {
+	background-color: rgba(0, 0, 0, .6);
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+
+.header:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.mid {
+	width: 80%;
+	margin: auto;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.manu {
+	width: 70%;
+	float: left; 
+}
+
+.manu ul {
+	text-align: right;
+}
+
+.manu ul li {
+	display: inline-block;
+}
+
+.manu ul li a {
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	display: block;
+	border-radius: 3px;
+}
+
+.manu ul li a:hover {
+	background-color: #643a79;
+}
+
+.walcome-text {
+	text-align: center;
+}
+
+.walcome-text h2 {
+	text-align: center;
+	font-size: 40px;
+	margin: auto;
+	color: #fff;
+	width: 75%;
+	margin-top: 200px;
+} 
+
+.walcome-text a {
+	display: inline-block;
+	font-size: 16px;
+	padding: 20px 50px;
+	color: #fff;
+	background-color: #eb7d4b;
+	border-radius: 3px;
+	border-bottom: 4px solid #c86a40;
+	margin-top: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+/********* welcome part end ********/
+/********* service part start ********/
+.service {
+	background-color: #17C2A4;
+	padding: 100px 0px;
+}
+.service h2 {
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.service hr {
+	width: 50px;
+	margin: 10px auto;
+	border-top: none;
+	border-bottom: 5px solid #14a58c;
+}
+.service .mid > p {
+	color: #fff;
+	text-align: center;
+	width: 60%;
+	margin: auto;
+}
+.service-area {
+	margin-top: 20px;
+}
+.sb {
+	width: 23%;
+	display: inline-block;
+}
+.sb img {
+	margin: auto;
+	display: block;
+}
+.service-area h3 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px 0px;
+}
+.service-area p {
+	color: #FFF;
+	font-size: 14px;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+/********* service part start ********/
+/********* team part start ********/
+.team-part {
+	background-color: #E7F1F8;
+	padding: 100px 0px;
+}
+.team-part h2 {
+	font-size: 40px;
+	color: #3C4761;
+	text-align: center;
+	text-transform: uppercase;
+}
+.team-part hr {
+	width: 50px;
+	border-top: none;
+	margin: 10px auto;
+	border-bottom: 5px solid #c8d9e5;
+}
+.team-part .mid > p {
+	color: #3C4761;
+	text-align: center;
+}
+.team {
+	margin-top: 50px;
+}
+.tb {
+	width: 23%;
+	display: inline-block;
+}
+.tb img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: auto;
+	display: block;
+}
+.tb h3 {
+	color: #3c4761;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.tb h4 {
+	color: #30bae7;
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.tb p {
+	font-size: 14px;
+	color: #3c4761;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+.social {
+	margin-top: 20px;
+}
+.social ul  {
+	text-align: center;
+}
+.social ul li {
+	display: inline-block;
+}
+.social ul li a {
+	display: block;
+	width: 16px;
+	height: 16px;
+	padding: 10px;
+	background-color: #bdd1df;
+	border-radius: 50%;
+	text-align: center;
+	color: #FFF;
+}
+
+/********* team part end ********/
+/********* skills part start ********/
+.skills  {
+	padding: 100px 0px;
+}
+.skills h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #3c4761;
+	text-transform: uppercase;
+}
+.skills hr {
+	width: 50px;
+	border-top: none;
+	border-bottom: 5px solid #c8d9e5;
+	margin: 10px auto;
+}
+.skills .mid > p {
+	font-size: 14px;
+	color: #3c4761;
+	width: 40%;
+	text-align: center;
+	margin: auto;
+}
+.skills-area {
+	margin: auto;
+}
+.skb {
+	display: inline-block;
+	width: 24%;
+}
+.skb img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 50px auto;
+}
+.skb h3 {
+	text-transform: uppercase;
+	margin-top: 20px;
+	color: #3c4761;
+	text-align: center;
+}
+/********* skills part end ********/
+/********* portfolio part start ********/
+.portfolio {
+	background-color: #FFDD99;
+	padding: 100px 0px;
+	text-align: center;
+}
+.portfolio h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #393939;
+	text-transform: uppercase;
+}
+.portfolio hr {
+	width: 50px;
+	border-top: none;
+	border-bottom: 5px solid #ebc985;
+	margin: 10px auto;
+}
+.portfolio .mid > p {
+	font-size: 14px;
+	color: #393939;
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+.port-manu ul {
+	text-align: center;
+	margin: 20px 0px;
+}
+.port-manu ul li {
+	display: inline-block;
+}
+.port-manu ul li a {
+	display: block;
+	padding: 7px 15px;
+	border-radius: 3px;
+	background-color: #ebc985;
+	color: #393939;
+}
+.portfolio-area {
+	margin-top: 50px;
+}
+.pb {
+	width: 48%;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+.pb img {
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+.pb h3 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #393939;
+	margin-top: 10px;
+}
+.portfolio .mid > a {
+	text-align: center;
+	display: inline-block;
+	padding: 20px 70px;
+	background-color: #17c2a4;
+	border-radius: 3px;
+	border-bottom: 5px solid #14a58c;
+	color: #FFF;
+}
+/********* portfolio part end ********/
+/********* comments part start ********/
+.about {
+	background-color: #D74680;
+	padding: 100px 0px;
+}
+.about h2 {
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.about hr {
+	width: 50px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 5px solid #b73c6d;
+	margin: 15px auto; 
+}
+.about .mid > p {
+	color: #fff;
+	text-align: center;
+}
+.client-area {
+	margin-top: 30px;
+}
+.client-box {
+	display: inline-block;
+	width: 48%;
+	margin-bottom: 100px;
+}
+.client-box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.client-images {
+	width: 130px;
+	float: left;
+}
+.client-images img {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.client-mass {
+	width: 70%;
+	float: left;
+}
+.client-mass p {
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 20px;
+	font-style: italic;
+}
+.client-mass p:before {
+	content: '"';
+}
+.client-mass p:after {
+	content: '"';
+}
+.client-mass h3 {
+	color: #FFF;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.client-mass h4 {
+	color: #ffdd99;
+	font-size: 14px;
+}
+/********* comments part end ********/
+/********* contact part start ********/
+.contact {
+	background-color: #3C5499;
+	padding: 100px 0px;
+	margin: auto;
+}
+.contact h2 {
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+}
+.contact hr {
+	width: 50px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 5px solid #273a71;
+	margin: 15px auto;	
+}
+.contact p {
+	text-align: center;
+	color: #fff;
+}
+.contact-from {
+	width: 50%;
+	margin: 50px auto;
+}
+.contact-from .from input[type="text"] {
+	width: 49%;
+	background-color: #273A71;
+	color: #fff;
+	padding: 8px;
+	border: 1px solid #273a71;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+.contact-from .from textarea {
+	min-width: 100%;
+	background-color: #273A71;
+	border: 1px solid #273a71;
+	box-sizing: border-box;
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 10px;
+	min-height: 100px;
+	color: #fff;
+}
+.contact-from .from input:nth-child(2) {
+	float: right;
+}
+.contact-from .from input[type="submit"] {
+	padding: 10px 30px;
+	background-color: #30BAE7;
+	color: #fff;
+	border: 1px solid #30bae7;
+	font-weight: bold;
+	display: block;
+	margin: 20px auto;
+	border-bottom: 3px solid #299ec5;
+	border-radius: 3px;
+	font-size: 20px;
+
+}
+/********* contact part end ********/
+/********* footer part start ********/
+.footer {
+	background-color: #344B8E;
+	padding: 30px 0px;
+	
+}
+.footer ul {
+	text-align: center;
+}
+.footer ul li {
+	display: inline-block;
+}
+.footer ul li a {
+	color: #fff;
+	font-size: 25px;
+	padding: 0px 25px;
+}
+.footer ul li:hover a {
+	color: #30BAE7;
+}
+/********* footer part end ********/

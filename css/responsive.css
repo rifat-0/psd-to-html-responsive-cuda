@@ -1,0 +1,47 @@
+@media all and (max-width: 810px) {
+	.logo {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.manu {
+		width: 100%;
+		float: none;
+		margin-top: 10px;
+	}
+	.manu ul {
+		text-align: center;
+	}
+	.walcome-text h2 {
+		width: 80%;
+		margin-top: 50px
+	}
+	.sb img {
+		width: 100px;
+		height: 100px;
+	}
+	.service .mid > p {
+		width: 80%;
+	}
+	.tb img {
+		width: 100px;
+		height: 100px;
+	}
+	.social ul li a {
+		width: 32px;
+		height: 32px;
+	}
+	.skills .mid > p {
+		width: 80%;
+	}
+	.portfolio .mid > p {
+		width: 80%;
+	}
+	.footer {
+		width: 100%;
+	}
+	.footer ul li a {
+		padding: 10px;
+		line-height: 40px;
+	}
+}
